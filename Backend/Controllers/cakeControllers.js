@@ -59,6 +59,7 @@ const UpdateCake= async (req, res) =>{
             res.status(500).json("Unable to Update Cake")
         }
         else{
+            cake.save()
             res.status(200).json(cake)
         }
     } catch (error) {

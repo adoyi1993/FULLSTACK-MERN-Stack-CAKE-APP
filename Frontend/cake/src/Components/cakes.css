@@ -1,0 +1,8 @@
+@media screen and (max-width: 350px){
+    .cakes{
+        display: flex;
+        flex-direction: column;
+       
+       
+    }
+}

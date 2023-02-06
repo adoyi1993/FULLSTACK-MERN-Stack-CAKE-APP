@@ -1,0 +1,6 @@
+@media screen and (max-width: 340px) {
+    .nav_items{
+        display: none;
+    }
+}
+
